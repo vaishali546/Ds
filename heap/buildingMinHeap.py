@@ -1,3 +1,5 @@
+# Time complexity - O(N)
+# Space complexity - O(N)(Recursive stack)
 def heapify(arr,n,i):
     smallest = i
     l = 2*i+1
